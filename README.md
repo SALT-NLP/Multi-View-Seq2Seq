@@ -1,0 +1,87 @@
+# MixText
+This repo contains codes for the following paper: 
+
+*Jiaao Chen, Diyi Yang*: Multi-View Sequence-to-Sequence Models with Conversational Structure for Abstractive Dialogue Summarization,  EMNLP 2020
+
+If you would like to refer to it, please cite the paper mentioned above. 
+
+
+## Getting Started
+These instructions will get you running the codes of Multi-View Conversation Summarization.
+
+### Requirements
+* Python 3.6 or higher
+* Pytorch >= 1.3.0
+* Pandas, Numpy, Pickle
+* rouge(https://github.com/pltrdy/rouge)
+* Fairseq
+* sentence_transformers
+
+
+### Code Structure
+```
+|__ data/
+        |__ C99.py, C99utils.py --> C99 topic segmentation functions
+        |__ Sentence_Embeddings.ipynb --> Jupyter Notebook for getting the embeddings for utterances using SentBert
+        |__ Topic_Segment.ipynb --> Jupyter Notebook for getting the topic segments using C99
+        |__ Stage_Segment.ipynb --> Jupyter Notebook for getting the stage segments using HMM
+        |__ Read_Labels.ipynb --> Jupyter Notebook for getting the formated data for traning/evaluation
+        |__ Please download the full data folder from here https://drive.google.com/file/d/1-W42dS74MuFQUKBIru6_yc2Sm7LObc7o/view?usp=sharing
+
+|__fairseq/ --> Source codes from fairseq, containing the multi-view model codes
+|__fairseq_multi_view/
+        |__bpe.sh, binarize.sh --> Pre-process the data for fairseq training
+        |__train_multi_view.sh, train_single_view.sh --> Train the models
+```
+
+### Downloading the data
+Please download the dataset and put them in the data folder [here](https://drive.google.com/file/d/1-W42dS74MuFQUKBIru6_yc2Sm7LObc7o/view?usp=sharing)
+
+### Pre-processing the data
+
+The data folder you download from the above link already contains all the pre-processed files for SamSUM corpus.
+
+#### Segment conversations
+
+For your own data, first go through `Sentence_Embeddings.ipynb` to store all the embeddings of utterances in pickle files. Then using `Topic_Segment.ipynb` and `Stage_Segment.ipynb` to read the utterance representations and segment the conversations. You will generate the `*_label.pkl`, which contains the segment id for each utterance in conversations. Finally, using `Read_Labels.ipynb` to generate segmented data `*.source` and `*.target` for fairseq framework.
+
+#### BPE preprocess:
+
+```
+cd fairseq_multi_view
+
+wget -N 'https://dl.fbaipublicfiles.com/fairseq/gpt2_bpe/encoder.json'
+wget -N 'https://dl.fbaipublicfiles.com/fairseq/gpt2_bpe/vocab.bpe'
+wget -N 'https://dl.fbaipublicfiles.com/fairseq/gpt2_bpe/dict.txt'
+
+./bpe.sh
+```
+
+#### Binarize dataset:
+```
+cd fairseq_multi_view
+
+./binarize.sh
+```
+
+### Training models
+
+The trained multi-view summarization models used in the paper can be downloaded [here](https://drive.google.com/file/d/1Rhzxk1B7oaKi85Gsxr_8WcqTRx23HO-y/view?usp=sharing)
+
+These section contains instructions for training models on Yahoo Answers using 10 labeled data per class for training.
+
+#### Training Single-View model
+Please run `./train_single_view.sh` to train the single-view models. Note that you might need to modify the data folder name.
+
+
+#### Training Multi-View model
+Please run `./train_multi_view.sh` to train the Multi-view model, where it combines topic view and stage view. If you are going to combine different views, please modify the corresponding data folder name as well.
+
+
+
+
+
+
+
+
+
