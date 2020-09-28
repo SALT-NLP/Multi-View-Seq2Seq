@@ -1,4 +1,4 @@
-# MixText
+# Multi-View-Seq2Seq
 This repo contains codes for the following paper: 
 
 *Jiaao Chen, Diyi Yang*: Multi-View Sequence-to-Sequence Models with Conversational Structure for Abstractive Dialogue Summarization,  EMNLP 2020
