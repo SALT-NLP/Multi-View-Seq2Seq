@@ -1,0 +1,336 @@
+Namespace(align_suffix=None, alignfile=None, all_gather_list_size=16384, bpe=None, cpu=False, criterion='cross_entropy', dataset_impl='mmap', destdir='cnn_dm-bin_2/', empty_cache_freq=0, fp16=False, fp16_init_scale=128, fp16_no_flatten_grads=False, fp16_scale_tolerance=0.0, fp16_scale_window=None, joined_dictionary=False, log_format=None, log_interval=1000, lr_scheduler='fixed', memory_efficient_fp16=False, min_loss_scale=0.0001, multi_views=False, no_progress_bar=False, nwordssrc=-1, nwordstgt=-1, only_source=False, optimizer='nag', padding_factor=8, seed=1, source_lang='source', srcdict='dict.txt', target_lang='target', task='translation', tensorboard_logdir='', testpref=None, tgtdict='dict.txt', threshold_loss_scale=None, thresholdsrc=0, thresholdtgt=0, tokenizer=None, trainpref='../data/train_max_sent_label.bpe', user_dir=None, validpref='../data/val_max_sent_label.bpe', workers=60)
+[source] Dictionary: 50263 types
+Namespace(align_suffix=None, alignfile=None, all_gather_list_size=16384, bpe=None, cpu=False, criterion='cross_entropy', dataset_impl='mmap', destdir='cnn_dm-bin_2/', empty_cache_freq=0, fp16=False, fp16_init_scale=128, fp16_no_flatten_grads=False, fp16_scale_tolerance=0.0, fp16_scale_window=None, joined_dictionary=False, log_format=None, log_interval=1000, lr_scheduler='fixed', memory_efficient_fp16=False, min_loss_scale=0.0001, multi_views=False, no_progress_bar=False, nwordssrc=-1, nwordstgt=-1, only_source=False, optimizer='nag', padding_factor=8, seed=1, source_lang='source', srcdict='dict.txt', target_lang='target', task='translation', tensorboard_logdir='', testpref=None, tgtdict='dict.txt', threshold_loss_scale=None, thresholdsrc=0, thresholdtgt=0, tokenizer=None, trainpref='../data2/train_max_sent_label.bpe', user_dir=None, validpref='../data2/val_max_sent_label.bpe', workers=60)
+[source] Dictionary: 50263 types
+[source] ../data2/train_max_sent_label.bpe.source: 14732 sents, 2149873 tokens, 0.0% replaced by <unk>
+[source] Dictionary: 50263 types
+[source] ../data2/val_max_sent_label.bpe.source: 818 sents, 116507 tokens, 0.0% replaced by <unk>
+[target] Dictionary: 50263 types
+[target] ../data2/train_max_sent_label.bpe.target: 14743 sents, 387623 tokens, 0.0% replaced by <unk>
+[target] Dictionary: 50263 types
+[target] ../data2/val_max_sent_label.bpe.target: 818 sents, 21509 tokens, 0.0% replaced by <unk>
+Wrote preprocessed data to cnn_dm-bin_2/
+Namespace(align_suffix=None, alignfile=None, all_gather_list_size=16384, bpe=None, cpu=False, criterion='cross_entropy', dataset_impl='mmap', destdir='cnn_dm-bin_2/', empty_cache_freq=0, fp16=False, fp16_init_scale=128, fp16_no_flatten_grads=False, fp16_scale_tolerance=0.0, fp16_scale_window=None, joined_dictionary=False, log_format=None, log_interval=1000, lr_scheduler='fixed', memory_efficient_fp16=False, min_loss_scale=0.0001, multi_views=False, no_progress_bar=False, nwordssrc=-1, nwordstgt=-1, only_source=False, optimizer='nag', padding_factor=8, seed=1, source_lang='source', srcdict='dict.txt', target_lang='target', task='translation', tensorboard_logdir='', testpref=None, tgtdict='dict.txt', threshold_loss_scale=None, thresholdsrc=0, thresholdtgt=0, tokenizer=None, trainpref='../data2/train_max_sent_label.bpe', user_dir=None, validpref='../data2/val_max_sent_label.bpe', workers=60)
+[source] Dictionary: 50263 types
+[source] ../data2/train_max_sent_label.bpe.source: 14732 sents, 2149873 tokens, 0.0% replaced by <unk>
+[source] Dictionary: 50263 types
+[source] ../data2/val_max_sent_label.bpe.source: 818 sents, 116507 tokens, 0.0% replaced by <unk>
+[target] Dictionary: 50263 types
+[target] ../data2/train_max_sent_label.bpe.target: 14743 sents, 387623 tokens, 0.0% replaced by <unk>
+[target] Dictionary: 50263 types
+[target] ../data2/val_max_sent_label.bpe.target: 818 sents, 21509 tokens, 0.0% replaced by <unk>
+Wrote preprocessed data to cnn_dm-bin_2/
+Namespace(align_suffix=None, alignfile=None, all_gather_list_size=16384, bpe=None, cpu=False, criterion='cross_entropy', dataset_impl='mmap', destdir='cnn_dm-bin_2/', empty_cache_freq=0, fp16=False, fp16_init_scale=128, fp16_no_flatten_grads=False, fp16_scale_tolerance=0.0, fp16_scale_window=None, joined_dictionary=False, log_format=None, log_interval=1000, lr_scheduler='fixed', memory_efficient_fp16=False, min_loss_scale=0.0001, multi_views=False, no_progress_bar=False, nwordssrc=-1, nwordstgt=-1, only_source=False, optimizer='nag', padding_factor=8, seed=1, source_lang='source', srcdict='dict.txt', target_lang='target', task='translation', tensorboard_logdir='', testpref=None, tgtdict='dict.txt', threshold_loss_scale=None, thresholdsrc=0, thresholdtgt=0, tokenizer=None, trainpref='../data2/train_max_sent_label.bpe', user_dir=None, validpref='../data2/val_max_sent_label.bpe', workers=60)
+[source] Dictionary: 50263 types
+[source] ../data2/train_max_sent_label.bpe.source: 14732 sents, 2149873 tokens, 0.0% replaced by <unk>
+[source] Dictionary: 50263 types
+[source] ../data2/val_max_sent_label.bpe.source: 818 sents, 116507 tokens, 0.0% replaced by <unk>
+[target] Dictionary: 50263 types
+[target] ../data2/train_max_sent_label.bpe.target: 14732 sents, 387611 tokens, 0.0% replaced by <unk>
+[target] Dictionary: 50263 types
+[target] ../data2/val_max_sent_label.bpe.target: 818 sents, 21509 tokens, 0.0% replaced by <unk>
+Wrote preprocessed data to cnn_dm-bin_2/
+Namespace(align_suffix=None, alignfile=None, all_gather_list_size=16384, bpe=None, cpu=False, criterion='cross_entropy', dataset_impl='mmap', destdir='cnn_dm-bin_2/', empty_cache_freq=0, fp16=False, fp16_init_scale=128, fp16_no_flatten_grads=False, fp16_scale_tolerance=0.0, fp16_scale_window=None, joined_dictionary=False, log_format=None, log_interval=1000, lr_scheduler='fixed', memory_efficient_fp16=False, min_loss_scale=0.0001, multi_views=False, no_progress_bar=False, nwordssrc=-1, nwordstgt=-1, only_source=False, optimizer='nag', padding_factor=8, seed=1, source_lang='source', srcdict='dict.txt', target_lang='target', task='translation', tensorboard_logdir='', testpref=None, tgtdict='dict.txt', threshold_loss_scale=None, thresholdsrc=0, thresholdtgt=0, tokenizer=None, trainpref='../data2/train_none.bpe', user_dir=None, validpref='../data2/val_none.bpe', workers=60)
+[source] Dictionary: 50263 types
+[source] ../data2/train_none.bpe.source: 14732 sents, 2120771 tokens, 0.0% replaced by <unk>
+[source] Dictionary: 50263 types
+[source] ../data2/val_none.bpe.source: 818 sents, 114885 tokens, 0.0% replaced by <unk>
+[target] Dictionary: 50263 types
+[target] ../data2/train_none.bpe.target: 14732 sents, 387611 tokens, 0.0% replaced by <unk>
+[target] Dictionary: 50263 types
+[target] ../data2/val_none.bpe.target: 818 sents, 21509 tokens, 0.0% replaced by <unk>
+Wrote preprocessed data to cnn_dm-bin_2/
+Namespace(align_suffix=None, alignfile=None, all_gather_list_size=16384, bpe=None, cpu=False, criterion='cross_entropy', dataset_impl='mmap', destdir='cnn_dm-bin_2/', empty_cache_freq=0, fp16=False, fp16_init_scale=128, fp16_no_flatten_grads=False, fp16_scale_tolerance=0.0, fp16_scale_window=None, joined_dictionary=False, log_format=None, log_interval=1000, lr_scheduler='fixed', memory_efficient_fp16=False, min_loss_scale=0.0001, multi_views=False, no_progress_bar=False, nwordssrc=-1, nwordstgt=-1, only_source=False, optimizer='nag', padding_factor=8, seed=1, source_lang='source', srcdict='dict.txt', target_lang='target', task='translation', tensorboard_logdir='', testpref=None, tgtdict='dict.txt', threshold_loss_scale=None, thresholdsrc=0, thresholdtgt=0, tokenizer=None, trainpref='../data2/train_sent_label.bpe', user_dir=None, validpref='../data2/val_sent_label.bpe', workers=60)
+[source] Dictionary: 50263 types
+[source] ../data2/train_sent_label.bpe.source: 14732 sents, 2128921 tokens, 0.0% replaced by <unk>
+[source] Dictionary: 50263 types
+[source] ../data2/val_sent_label.bpe.source: 818 sents, 115227 tokens, 0.0% replaced by <unk>
+[target] Dictionary: 50263 types
+[target] ../data2/train_sent_label.bpe.target: 14732 sents, 387611 tokens, 0.0% replaced by <unk>
+[target] Dictionary: 50263 types
+[target] ../data2/val_sent_label.bpe.target: 818 sents, 21509 tokens, 0.0% replaced by <unk>
+Wrote preprocessed data to cnn_dm-bin_2/
+Namespace(align_suffix=None, alignfile=None, all_gather_list_size=16384, bpe=None, cpu=False, criterion='cross_entropy', dataset_impl='mmap', destdir='cnn_dm-bin_2/', empty_cache_freq=0, fp16=False, fp16_init_scale=128, fp16_no_flatten_grads=False, fp16_scale_tolerance=0.0, fp16_scale_window=None, joined_dictionary=False, log_format=None, log_interval=1000, lr_scheduler='fixed', memory_efficient_fp16=False, min_loss_scale=0.0001, multi_views=False, no_progress_bar=False, nwordssrc=-1, nwordstgt=-1, only_source=False, optimizer='nag', padding_factor=8, seed=1, source_lang='source', srcdict='dict.txt', target_lang='target', task='translation', tensorboard_logdir='', testpref=None, tgtdict='dict.txt', threshold_loss_scale=None, thresholdsrc=0, thresholdtgt=0, tokenizer=None, trainpref='../data2/train_sent_label.bpe', user_dir=None, validpref='../data2/val_sent_label.bpe', workers=60)
+[source] Dictionary: 50263 types
+[source] ../data2/train_sent_label.bpe.source: 14732 sents, 2128921 tokens, 0.0% replaced by <unk>
+[source] Dictionary: 50263 types
+[source] ../data2/val_sent_label.bpe.source: 818 sents, 115227 tokens, 0.0% replaced by <unk>
+[target] Dictionary: 50263 types
+[target] ../data2/train_sent_label.bpe.target: 14732 sents, 387611 tokens, 0.0% replaced by <unk>
+[target] Dictionary: 50263 types
+[target] ../data2/val_sent_label.bpe.target: 818 sents, 21509 tokens, 0.0% replaced by <unk>
+Wrote preprocessed data to cnn_dm-bin_2/
+Namespace(align_suffix=None, alignfile=None, all_gather_list_size=16384, balance=False, bpe=None, cpu=False, criterion='cross_entropy', dataset_impl='mmap', destdir='cnn_dm-bin_2/', empty_cache_freq=0, fp16=False, fp16_init_scale=128, fp16_no_flatten_grads=False, fp16_scale_tolerance=0.0, fp16_scale_window=None, joined_dictionary=False, log_format=None, log_interval=1000, lr_scheduler='fixed', memory_efficient_fp16=False, min_loss_scale=0.0001, multi_views=False, no_progress_bar=False, nwordssrc=-1, nwordstgt=-1, only_source=False, optimizer='nag', padding_factor=8, seed=1, source_lang='source', srcdict='dict.txt', target_lang='target', task='translation', tensorboard_logdir='', testpref=None, tgtdict='dict.txt', threshold_loss_scale=None, thresholdsrc=0, thresholdtgt=0, tokenizer=None, trainpref='../data2/train_sent_label.bpe', user_dir=None, validpref='../data2/val_sent_label.bpe', workers=60)
+[source] Dictionary: 50264 types
+[source] ../data2/train_sent_label.bpe.source: 14732 sents, 2412177 tokens, 0.0% replaced by <unk>
+[source] Dictionary: 50264 types
+[source] ../data2/val_sent_label.bpe.source: 818 sents, 130627 tokens, 0.0% replaced by <unk>
+[target] Dictionary: 50264 types
+[target] ../data2/train_sent_label.bpe.target: 14732 sents, 387611 tokens, 0.0% replaced by <unk>
+[target] Dictionary: 50264 types
+[target] ../data2/val_sent_label.bpe.target: 818 sents, 21509 tokens, 0.0% replaced by <unk>
+Wrote preprocessed data to cnn_dm-bin_2/
+Namespace(align_suffix=None, alignfile=None, all_gather_list_size=16384, balance=False, bpe=None, cpu=False, criterion='cross_entropy', dataset_impl='mmap', destdir='cnn_dm-bin_2/', empty_cache_freq=0, fp16=False, fp16_init_scale=128, fp16_no_flatten_grads=False, fp16_scale_tolerance=0.0, fp16_scale_window=None, joined_dictionary=False, log_format=None, log_interval=1000, lr_scheduler='fixed', memory_efficient_fp16=False, min_loss_scale=0.0001, multi_views=False, no_progress_bar=False, nwordssrc=-1, nwordstgt=-1, only_source=False, optimizer='nag', padding_factor=8, seed=1, source_lang='source', srcdict='dict.txt', target_lang='target', task='translation', tensorboard_logdir='', testpref=None, tgtdict='dict.txt', threshold_loss_scale=None, thresholdsrc=0, thresholdtgt=0, tokenizer=None, trainpref='../data3/train_sent_c99_label.bpe', user_dir=None, validpref='../data3/val_sent_c99_label.bpe', workers=60)
+[source] Dictionary: 50264 types
+[source] ../data3/train_sent_c99_label.bpe.source: 14732 sents, 2360554 tokens, 0.0% replaced by <unk>
+[source] Dictionary: 50264 types
+[source] ../data3/val_sent_c99_label.bpe.source: 818 sents, 127493 tokens, 0.0% replaced by <unk>
+[target] Dictionary: 50264 types
+[target] ../data3/train_sent_c99_label.bpe.target: 14732 sents, 387611 tokens, 0.0% replaced by <unk>
+[target] Dictionary: 50264 types
+[target] ../data3/val_sent_c99_label.bpe.target: 818 sents, 21509 tokens, 0.0% replaced by <unk>
+Wrote preprocessed data to cnn_dm-bin_2/
+Namespace(align_suffix=None, alignfile=None, all_gather_list_size=16384, balance=False, bpe=None, cpu=False, criterion='cross_entropy', dataset_impl='mmap', destdir='cnn_dm-bin_2/', empty_cache_freq=0, fp16=False, fp16_init_scale=128, fp16_no_flatten_grads=False, fp16_scale_tolerance=0.0, fp16_scale_window=None, joined_dictionary=False, log_format=None, log_interval=1000, lr_scheduler='fixed', memory_efficient_fp16=False, min_loss_scale=0.0001, multi_views=False, no_progress_bar=False, nwordssrc=-1, nwordstgt=-1, only_source=False, optimizer='nag', padding_factor=8, seed=1, source_lang='source', srcdict='dict.txt', target_lang='target', task='translation', tensorboard_logdir='', testpref=None, tgtdict='dict.txt', threshold_loss_scale=None, thresholdsrc=0, thresholdtgt=0, tokenizer=None, trainpref='../data3/train_sent_c99_label.bpe', user_dir=None, validpref='../data3/val_sent_c99_label.bpe', workers=60)
+[source] Dictionary: 50263 types
+[source] ../data3/train_sent_c99_label.bpe.source: 14732 sents, 2193601 tokens, 0.0% replaced by <unk>
+[source] Dictionary: 50263 types
+[source] ../data3/val_sent_c99_label.bpe.source: 818 sents, 118643 tokens, 0.0% replaced by <unk>
+[target] Dictionary: 50263 types
+[target] ../data3/train_sent_c99_label.bpe.target: 14732 sents, 387611 tokens, 0.0% replaced by <unk>
+[target] Dictionary: 50263 types
+[target] ../data3/val_sent_c99_label.bpe.target: 818 sents, 21509 tokens, 0.0% replaced by <unk>
+Wrote preprocessed data to cnn_dm-bin_2/
+Namespace(align_suffix=None, alignfile=None, all_gather_list_size=16384, balance=False, bpe=None, cpu=False, criterion='cross_entropy', dataset_impl='mmap', destdir='cnn_dm-bin_2/', empty_cache_freq=0, fp16=False, fp16_init_scale=128, fp16_no_flatten_grads=False, fp16_scale_tolerance=0.0, fp16_scale_window=None, joined_dictionary=False, log_format=None, log_interval=1000, lr_scheduler='fixed', memory_efficient_fp16=False, min_loss_scale=0.0001, multi_views=False, no_progress_bar=False, nwordssrc=-1, nwordstgt=-1, only_source=False, optimizer='nag', padding_factor=8, seed=1, source_lang='source', srcdict='dict.txt', target_lang='target', task='translation', tensorboard_logdir='', testpref=None, tgtdict='dict.txt', threshold_loss_scale=None, thresholdsrc=0, thresholdtgt=0, tokenizer=None, trainpref='../data3/train_sent_c99_label.bpe', user_dir=None, validpref='../data3/val_sent_c99_label.bpe', workers=60)
+[source] Dictionary: 50263 types
+[source] ../data3/train_sent_c99_label.bpe.source: 14732 sents, 2274190 tokens, 0.0% replaced by <unk>
+[source] Dictionary: 50263 types
+[source] ../data3/val_sent_c99_label.bpe.source: 818 sents, 122873 tokens, 0.0% replaced by <unk>
+[target] Dictionary: 50263 types
+[target] ../data3/train_sent_c99_label.bpe.target: 14732 sents, 387611 tokens, 0.0% replaced by <unk>
+[target] Dictionary: 50263 types
+[target] ../data3/val_sent_c99_label.bpe.target: 818 sents, 21509 tokens, 0.0% replaced by <unk>
+Wrote preprocessed data to cnn_dm-bin_2/
+Namespace(align_suffix=None, alignfile=None, all_gather_list_size=16384, balance=False, bpe=None, cpu=False, criterion='cross_entropy', dataset_impl='mmap', destdir='cnn_dm-bin_2/', empty_cache_freq=0, fp16=False, fp16_init_scale=128, fp16_no_flatten_grads=False, fp16_scale_tolerance=0.0, fp16_scale_window=None, joined_dictionary=False, log_format=None, log_interval=1000, lr_scheduler='fixed', memory_efficient_fp16=False, min_loss_scale=0.0001, multi_views=False, no_progress_bar=False, nwordssrc=-1, nwordstgt=-1, only_source=False, optimizer='nag', padding_factor=8, seed=1, source_lang='source', srcdict='dict.txt', target_lang='target', task='translation', tensorboard_logdir='', testpref=None, tgtdict='dict.txt', threshold_loss_scale=None, thresholdsrc=0, thresholdtgt=0, tokenizer=None, trainpref='../data3/train_sent_c99_label.bpe', user_dir=None, validpref='../data3/val_sent_c99_label.bpe', workers=60)
+[source] Dictionary: 50263 types
+[source] ../data3/train_sent_c99_label.bpe.source: 14732 sents, 2026648 tokens, 0.0% replaced by <unk>
+[source] Dictionary: 50263 types
+[source] ../data3/val_sent_c99_label.bpe.source: 818 sents, 109793 tokens, 0.0% replaced by <unk>
+[target] Dictionary: 50263 types
+[target] ../data3/train_sent_c99_label.bpe.target: 14732 sents, 387611 tokens, 0.0% replaced by <unk>
+[target] Dictionary: 50263 types
+[target] ../data3/val_sent_c99_label.bpe.target: 818 sents, 21509 tokens, 0.0% replaced by <unk>
+Wrote preprocessed data to cnn_dm-bin_2/
+Namespace(align_suffix=None, alignfile=None, all_gather_list_size=16384, balance=False, bpe=None, cpu=False, criterion='cross_entropy', dataset_impl='mmap', destdir='cnn_dm-bin_2/', empty_cache_freq=0, fp16=False, fp16_init_scale=128, fp16_no_flatten_grads=False, fp16_scale_tolerance=0.0, fp16_scale_window=None, joined_dictionary=False, log_format=None, log_interval=1000, lr_scheduler='fixed', memory_efficient_fp16=False, min_loss_scale=0.0001, multi_views=False, no_progress_bar=False, nwordssrc=-1, nwordstgt=-1, only_source=False, optimizer='nag', padding_factor=8, seed=1, source_lang='source', srcdict='dict.txt', target_lang='target', task='translation', tensorboard_logdir='', testpref=None, tgtdict='dict.txt', threshold_loss_scale=None, thresholdsrc=0, thresholdtgt=0, tokenizer=None, trainpref='../data3/train_sent_c99_label.bpe', user_dir=None, validpref='../data3/val_sent_c99_label.bpe', workers=60)
+[source] Dictionary: 50263 types
+[source] ../data3/train_sent_c99_label.bpe.source: 14732 sents, 2026648 tokens, 0.0% replaced by <unk>
+[source] Dictionary: 50263 types
+[source] ../data3/val_sent_c99_label.bpe.source: 818 sents, 109793 tokens, 0.0% replaced by <unk>
+[target] Dictionary: 50263 types
+[target] ../data3/train_sent_c99_label.bpe.target: 14732 sents, 387611 tokens, 0.0% replaced by <unk>
+[target] Dictionary: 50263 types
+[target] ../data3/val_sent_c99_label.bpe.target: 818 sents, 21509 tokens, 0.0% replaced by <unk>
+Wrote preprocessed data to cnn_dm-bin_2/
+Namespace(align_suffix=None, alignfile=None, all_gather_list_size=16384, balance=False, bpe=None, cpu=False, criterion='cross_entropy', dataset_impl='mmap', destdir='cnn_dm-bin_2/', empty_cache_freq=0, fp16=False, fp16_init_scale=128, fp16_no_flatten_grads=False, fp16_scale_tolerance=0.0, fp16_scale_window=None, joined_dictionary=False, log_format=None, log_interval=1000, lr_scheduler='fixed', memory_efficient_fp16=False, min_loss_scale=0.0001, multi_views=False, no_progress_bar=False, nwordssrc=-1, nwordstgt=-1, only_source=False, optimizer='nag', padding_factor=8, seed=1, source_lang='source', srcdict='dict.txt', target_lang='target', task='translation', tensorboard_logdir='', testpref=None, tgtdict='dict.txt', threshold_loss_scale=None, thresholdsrc=0, thresholdtgt=0, tokenizer=None, trainpref='../data3/train_sent_c99_label.bpe', user_dir=None, validpref='../data3/val_sent_c99_label.bpe', workers=60)
+[source] Dictionary: 50263 types
+[source] ../data3/train_sent_c99_label.bpe.source: 14732 sents, 2026646 tokens, 0.0% replaced by <unk>
+[source] Dictionary: 50263 types
+[source] ../data3/val_sent_c99_label.bpe.source: 818 sents, 109792 tokens, 0.0% replaced by <unk>
+[target] Dictionary: 50263 types
+[target] ../data3/train_sent_c99_label.bpe.target: 14732 sents, 387611 tokens, 0.0% replaced by <unk>
+[target] Dictionary: 50263 types
+[target] ../data3/val_sent_c99_label.bpe.target: 818 sents, 21509 tokens, 0.0% replaced by <unk>
+Wrote preprocessed data to cnn_dm-bin_2/
+Namespace(align_suffix=None, alignfile=None, all_gather_list_size=16384, balance=False, bpe=None, cpu=False, criterion='cross_entropy', dataset_impl='mmap', destdir='cnn_dm-bin_2/', empty_cache_freq=0, fp16=False, fp16_init_scale=128, fp16_no_flatten_grads=False, fp16_scale_tolerance=0.0, fp16_scale_window=None, joined_dictionary=False, log_format=None, log_interval=1000, lr_scheduler='fixed', memory_efficient_fp16=False, min_loss_scale=0.0001, multi_views=False, no_progress_bar=False, nwordssrc=-1, nwordstgt=-1, only_source=False, optimizer='nag', padding_factor=8, seed=1, source_lang='source', srcdict='dict.txt', target_lang='target', task='translation', tensorboard_logdir='', testpref=None, tgtdict='dict.txt', threshold_loss_scale=None, thresholdsrc=0, thresholdtgt=0, tokenizer=None, trainpref='../data3/train_sent_c99_label.bpe', user_dir=None, validpref='../data3/val_sent_c99_label.bpe', workers=60)
+[source] Dictionary: 50263 types
+[source] ../data3/train_sent_c99_label.bpe.source: 14732 sents, 2034855 tokens, 0.0% replaced by <unk>
+[source] Dictionary: 50263 types
+[source] ../data3/val_sent_c99_label.bpe.source: 818 sents, 110268 tokens, 0.0% replaced by <unk>
+[target] Dictionary: 50263 types
+[target] ../data3/train_sent_c99_label.bpe.target: 14732 sents, 387611 tokens, 0.0% replaced by <unk>
+[target] Dictionary: 50263 types
+[target] ../data3/val_sent_c99_label.bpe.target: 818 sents, 21509 tokens, 0.0% replaced by <unk>
+Wrote preprocessed data to cnn_dm-bin_2/
+Namespace(align_suffix=None, alignfile=None, all_gather_list_size=16384, balance=False, bpe=None, cpu=False, criterion='cross_entropy', dataset_impl='mmap', destdir='cnn_dm-bin_2/', empty_cache_freq=0, fp16=False, fp16_init_scale=128, fp16_no_flatten_grads=False, fp16_scale_tolerance=0.0, fp16_scale_window=None, joined_dictionary=False, log_format=None, log_interval=1000, lr_scheduler='fixed', memory_efficient_fp16=False, min_loss_scale=0.0001, multi_views=False, no_progress_bar=False, nwordssrc=-1, nwordstgt=-1, only_source=False, optimizer='nag', padding_factor=8, seed=1, source_lang='source', srcdict='dict.txt', target_lang='target', task='translation', tensorboard_logdir='', testpref=None, tgtdict='dict.txt', threshold_loss_scale=None, thresholdsrc=0, thresholdtgt=0, tokenizer=None, trainpref='../data3/train_sent_c99_label.bpe', user_dir=None, validpref='../data3/val_sent_c99_label.bpe', workers=60)
+[source] Dictionary: 50263 types
+[source] ../data3/train_sent_c99_label.bpe.source: 14732 sents, 2034855 tokens, 0.0% replaced by <unk>
+[source] Dictionary: 50263 types
+[source] ../data3/val_sent_c99_label.bpe.source: 818 sents, 110268 tokens, 0.0% replaced by <unk>
+[target] Dictionary: 50263 types
+[target] ../data3/train_sent_c99_label.bpe.target: 14732 sents, 387611 tokens, 0.0% replaced by <unk>
+[target] Dictionary: 50263 types
+[target] ../data3/val_sent_c99_label.bpe.target: 818 sents, 21509 tokens, 0.0% replaced by <unk>
+Wrote preprocessed data to cnn_dm-bin_2/
+Namespace(align_suffix=None, alignfile=None, all_gather_list_size=16384, balance=False, bpe=None, cpu=False, criterion='cross_entropy', dataset_impl='mmap', destdir='cnn_dm-bin_2/', empty_cache_freq=0, fp16=False, fp16_init_scale=128, fp16_no_flatten_grads=False, fp16_scale_tolerance=0.0, fp16_scale_window=None, joined_dictionary=False, log_format=None, log_interval=1000, lr_scheduler='fixed', memory_efficient_fp16=False, min_loss_scale=0.0001, multi_views=False, no_progress_bar=False, nwordssrc=-1, nwordstgt=-1, only_source=False, optimizer='nag', padding_factor=8, seed=1, source_lang='source', srcdict='dict.txt', target_lang='target', task='translation', tensorboard_logdir='', testpref=None, tgtdict='dict.txt', threshold_loss_scale=None, thresholdsrc=0, thresholdtgt=0, tokenizer=None, trainpref='../data3/train_sent_c99_label.bpe', user_dir=None, validpref='../data3/val_sent_c99_label.bpe', workers=60)
+[source] Dictionary: 50263 types
+[source] ../data3/train_sent_c99_label.bpe.source: 14732 sents, 2034855 tokens, 0.0% replaced by <unk>
+[source] Dictionary: 50263 types
+[source] ../data3/val_sent_c99_label.bpe.source: 818 sents, 110268 tokens, 0.0% replaced by <unk>
+[target] Dictionary: 50263 types
+[target] ../data3/train_sent_c99_label.bpe.target: 14732 sents, 387611 tokens, 0.0% replaced by <unk>
+[target] Dictionary: 50263 types
+[target] ../data3/val_sent_c99_label.bpe.target: 818 sents, 21509 tokens, 0.0% replaced by <unk>
+Wrote preprocessed data to cnn_dm-bin_2/
+Namespace(align_suffix=None, alignfile=None, all_gather_list_size=16384, balance=False, bpe=None, cpu=False, criterion='cross_entropy', dataset_impl='mmap', destdir='cnn_dm-bin_2/', empty_cache_freq=0, fp16=False, fp16_init_scale=128, fp16_no_flatten_grads=False, fp16_scale_tolerance=0.0, fp16_scale_window=None, joined_dictionary=False, log_format=None, log_interval=1000, lr_scheduler='fixed', memory_efficient_fp16=False, min_loss_scale=0.0001, multi_views=False, no_progress_bar=False, nwordssrc=-1, nwordstgt=-1, only_source=False, optimizer='nag', padding_factor=8, seed=1, source_lang='source', srcdict='dict.txt', target_lang='target', task='translation', tensorboard_logdir='', testpref=None, tgtdict='dict.txt', threshold_loss_scale=None, thresholdsrc=0, thresholdtgt=0, tokenizer=None, trainpref='../data3/train_sent_c99_label.bpe', user_dir=None, validpref='../data3/val_sent_c99_label.bpe', workers=60)
+[source] Dictionary: 50263 types
+[source] ../data3/train_sent_c99_label.bpe.source: 14732 sents, 2046893 tokens, 0.0% replaced by <unk>
+[source] Dictionary: 50263 types
+[source] ../data3/val_sent_c99_label.bpe.source: 818 sents, 110676 tokens, 0.0% replaced by <unk>
+[target] Dictionary: 50263 types
+[target] ../data3/train_sent_c99_label.bpe.target: 14732 sents, 387611 tokens, 0.0% replaced by <unk>
+[target] Dictionary: 50263 types
+[target] ../data3/val_sent_c99_label.bpe.target: 818 sents, 21509 tokens, 0.0% replaced by <unk>
+Wrote preprocessed data to cnn_dm-bin_2/
+Namespace(align_suffix=None, alignfile=None, all_gather_list_size=16384, balance=False, bpe=None, cpu=False, criterion='cross_entropy', dataset_impl='mmap', destdir='cnn_dm-bin_2/', empty_cache_freq=0, fp16=False, fp16_init_scale=128, fp16_no_flatten_grads=False, fp16_scale_tolerance=0.0, fp16_scale_window=None, joined_dictionary=False, log_format=None, log_interval=1000, lr_scheduler='fixed', memory_efficient_fp16=False, min_loss_scale=0.0001, multi_views=False, no_progress_bar=False, nwordssrc=-1, nwordstgt=-1, only_source=False, optimizer='nag', padding_factor=8, section_encoding=False, seed=1, source_lang='source', srcdict='dict.txt', target_lang='target', task='translation', tensorboard_logdir='', testpref=None, tgtdict='dict.txt', threshold_loss_scale=None, thresholdsrc=0, thresholdtgt=0, tokenizer=None, trainpref='../data3/train_sent_c99_label.bpe', user_dir=None, validpref='../data3/val_sent_c99_label.bpe', workers=60)
+[source] Dictionary: 50263 types
+[source] ../data3/train_sent_c99_label.bpe.source: 14732 sents, 2046893 tokens, 0.0% replaced by <unk>
+[source] Dictionary: 50263 types
+[source] ../data3/val_sent_c99_label.bpe.source: 818 sents, 110676 tokens, 0.0% replaced by <unk>
+[target] Dictionary: 50263 types
+[target] ../data3/train_sent_c99_label.bpe.target: 14732 sents, 387611 tokens, 0.0% replaced by <unk>
+[target] Dictionary: 50263 types
+[target] ../data3/val_sent_c99_label.bpe.target: 818 sents, 21509 tokens, 0.0% replaced by <unk>
+Wrote preprocessed data to cnn_dm-bin_2/
+Namespace(align_suffix=None, alignfile=None, all_gather_list_size=16384, balance=False, bpe=None, cpu=False, criterion='cross_entropy', dataset_impl='mmap', destdir='cnn_dm-bin_2/', empty_cache_freq=0, fp16=False, fp16_init_scale=128, fp16_no_flatten_grads=False, fp16_scale_tolerance=0.0, fp16_scale_window=None, joined_dictionary=False, log_format=None, log_interval=1000, lr_scheduler='fixed', memory_efficient_fp16=False, min_loss_scale=0.0001, multi_views=False, no_progress_bar=False, nwordssrc=-1, nwordstgt=-1, only_source=False, optimizer='nag', padding_factor=8, section_encoding=False, seed=1, source_lang='source', srcdict='dict.txt', target_lang='target', task='translation', tensorboard_logdir='', testpref=None, tgtdict='dict.txt', threshold_loss_scale=None, thresholdsrc=0, thresholdtgt=0, tokenizer=None, trainpref='../data3/train_sent_c99_label.bpe', user_dir=None, validpref='../data3/val_sent_c99_label.bpe', workers=60)
+[source] Dictionary: 50263 types
+Namespace(align_suffix=None, alignfile=None, all_gather_list_size=16384, balance=False, bpe=None, cpu=False, criterion='cross_entropy', dataset_impl='mmap', destdir='cnn_dm-bin_2/', empty_cache_freq=0, fp16=False, fp16_init_scale=128, fp16_no_flatten_grads=False, fp16_scale_tolerance=0.0, fp16_scale_window=None, joined_dictionary=False, log_format=None, log_interval=1000, lr_scheduler='fixed', memory_efficient_fp16=False, min_loss_scale=0.0001, multi_views=False, no_progress_bar=False, nwordssrc=-1, nwordstgt=-1, only_source=False, optimizer='nag', padding_factor=8, section_encoding=False, seed=1, source_lang='source', srcdict='dict.txt', target_lang='target', task='translation', tensorboard_logdir='', testpref=None, tgtdict='dict.txt', threshold_loss_scale=None, thresholdsrc=0, thresholdtgt=0, tokenizer=None, trainpref='../data3/train_sent_c99_label.bpe', user_dir=None, validpref='../data3/val_sent_c99_label.bpe', workers=60)
+[source] Dictionary: 50263 types
+[source] ../data3/train_sent_c99_label.bpe.source: 14732 sents, 2046893 tokens, 0.0% replaced by <unk>
+[source] Dictionary: 50263 types
+[source] ../data3/val_sent_c99_label.bpe.source: 818 sents, 110676 tokens, 0.0% replaced by <unk>
+[target] Dictionary: 50263 types
+[target] ../data3/train_sent_c99_label.bpe.target: 14732 sents, 387611 tokens, 0.0% replaced by <unk>
+[target] Dictionary: 50263 types
+[target] ../data3/val_sent_c99_label.bpe.target: 818 sents, 21509 tokens, 0.0% replaced by <unk>
+Wrote preprocessed data to cnn_dm-bin_2/
+Namespace(align_suffix=None, alignfile=None, all_gather_list_size=16384, balance=False, bpe=None, cpu=False, criterion='cross_entropy', dataset_impl='mmap', destdir='cnn_dm-bin_2/', empty_cache_freq=0, fp16=False, fp16_init_scale=128, fp16_no_flatten_grads=False, fp16_scale_tolerance=0.0, fp16_scale_window=None, joined_dictionary=False, log_format=None, log_interval=1000, lr_scheduler='fixed', memory_efficient_fp16=False, min_loss_scale=0.0001, multi_views=False, no_progress_bar=False, nwordssrc=-1, nwordstgt=-1, only_source=False, optimizer='nag', padding_factor=8, section_encoding=False, seed=1, source_lang='source', srcdict='dict.txt', target_lang='target', task='translation', tensorboard_logdir='', testpref=None, tgtdict='dict.txt', threshold_loss_scale=None, thresholdsrc=0, thresholdtgt=0, tokenizer=None, trainpref='../data3/train_sent_c99_label.bpe', user_dir=None, validpref='../data3/val_sent_c99_label.bpe', workers=60)
+[source] Dictionary: 50263 types
+[source] ../data3/train_sent_c99_label.bpe.source: 14732 sents, 2046893 tokens, 0.0% replaced by <unk>
+[source] Dictionary: 50263 types
+[source] ../data3/val_sent_c99_label.bpe.source: 818 sents, 110676 tokens, 0.0% replaced by <unk>
+[target] Dictionary: 50263 types
+[target] ../data3/train_sent_c99_label.bpe.target: 14732 sents, 387611 tokens, 0.0% replaced by <unk>
+[target] Dictionary: 50263 types
+[target] ../data3/val_sent_c99_label.bpe.target: 818 sents, 21509 tokens, 0.0% replaced by <unk>
+Wrote preprocessed data to cnn_dm-bin_2/
+Namespace(align_suffix=None, alignfile=None, all_gather_list_size=16384, balance=False, bpe=None, cpu=False, criterion='cross_entropy', dataset_impl='mmap', destdir='cnn_dm-bin_2/', empty_cache_freq=0, fp16=False, fp16_init_scale=128, fp16_no_flatten_grads=False, fp16_scale_tolerance=0.0, fp16_scale_window=None, joined_dictionary=False, log_format=None, log_interval=1000, lr_scheduler='fixed', memory_efficient_fp16=False, min_loss_scale=0.0001, multi_views=False, no_progress_bar=False, nwordssrc=-1, nwordstgt=-1, only_source=False, optimizer='nag', padding_factor=8, seed=1, source_lang='source', srcdict='dict.txt', target_lang='target', task='translation', tensorboard_logdir='', testpref=None, tgtdict='dict.txt', threshold_loss_scale=None, thresholdsrc=0, thresholdtgt=0, tokenizer=None, trainpref='../data3/train_sent_c99_label.bpe', user_dir=None, validpref='../data3/val_sent_c99_label.bpe', workers=60)
+[source] Dictionary: 50263 types
+[source] ../data3/train_sent_c99_label.bpe.source: 14731 sents, 2046891 tokens, 0.0% replaced by <unk>
+[source] Dictionary: 50263 types
+[source] ../data3/val_sent_c99_label.bpe.source: 818 sents, 110676 tokens, 0.0% replaced by <unk>
+[target] Dictionary: 50263 types
+[target] ../data3/train_sent_c99_label.bpe.target: 14731 sents, 387604 tokens, 0.0% replaced by <unk>
+[target] Dictionary: 50263 types
+[target] ../data3/val_sent_c99_label.bpe.target: 818 sents, 21509 tokens, 0.0% replaced by <unk>
+Wrote preprocessed data to cnn_dm-bin_2/
+Namespace(align_suffix=None, alignfile=None, all_gather_list_size=16384, balance=False, bpe=None, cpu=False, criterion='cross_entropy', dataset_impl='mmap', destdir='cnn_dm-bin_2/', empty_cache_freq=0, fp16=False, fp16_init_scale=128, fp16_no_flatten_grads=False, fp16_scale_tolerance=0.0, fp16_scale_window=None, joined_dictionary=False, log_format=None, log_interval=1000, lr_scheduler='fixed', memory_efficient_fp16=False, min_loss_scale=0.0001, multi_views=False, no_progress_bar=False, nwordssrc=-1, nwordstgt=-1, only_source=False, optimizer='nag', padding_factor=8, seed=1, source_lang='source', srcdict='dict.txt', target_lang='target', task='translation', tensorboard_logdir='', testpref=None, tgtdict='dict.txt', threshold_loss_scale=None, thresholdsrc=0, thresholdtgt=0, tokenizer=None, trainpref='../data3/train_sent_c99_label.bpe', user_dir=None, validpref='../data3/val_sent_c99_label.bpe', workers=60)
+[source] Dictionary: 50263 types
+[source] ../data3/train_sent_c99_label.bpe.source: 14731 sents, 2046893 tokens, 0.0% replaced by <unk>
+[source] Dictionary: 50263 types
+[source] ../data3/val_sent_c99_label.bpe.source: 818 sents, 110677 tokens, 0.0% replaced by <unk>
+[target] Dictionary: 50263 types
+[target] ../data3/train_sent_c99_label.bpe.target: 14731 sents, 387604 tokens, 0.0% replaced by <unk>
+[target] Dictionary: 50263 types
+[target] ../data3/val_sent_c99_label.bpe.target: 818 sents, 21509 tokens, 0.0% replaced by <unk>
+Wrote preprocessed data to cnn_dm-bin_2/
+Namespace(align_suffix=None, alignfile=None, all_gather_list_size=16384, balance=False, bpe=None, cpu=False, criterion='cross_entropy', dataset_impl='mmap', destdir='cnn_dm-bin_2/', empty_cache_freq=0, fp16=False, fp16_init_scale=128, fp16_no_flatten_grads=False, fp16_scale_tolerance=0.0, fp16_scale_window=None, joined_dictionary=False, log_format=None, log_interval=1000, lr_scheduler='fixed', memory_efficient_fp16=False, min_loss_scale=0.0001, multi_views=False, no_progress_bar=False, nwordssrc=-1, nwordstgt=-1, only_source=False, optimizer='nag', padding_factor=8, seed=1, source_lang='source', srcdict='dict.txt', target_lang='target', task='translation', tensorboard_logdir='', testpref=None, tgtdict='dict.txt', threshold_loss_scale=None, thresholdsrc=0, thresholdtgt=0, tokenizer=None, trainpref='../data3/train_sent_c99_label.bpe', user_dir=None, validpref='../data3/val_sent_c99_label.bpe', workers=60)
+[source] Dictionary: 50263 types
+[source] ../data3/train_sent_c99_label.bpe.source: 14731 sents, 2187657 tokens, 0.0% replaced by <unk>
+[source] Dictionary: 50263 types
+[source] ../data3/val_sent_c99_label.bpe.source: 818 sents, 118213 tokens, 0.0% replaced by <unk>
+[target] Dictionary: 50263 types
+[target] ../data3/train_sent_c99_label.bpe.target: 14731 sents, 387604 tokens, 0.0% replaced by <unk>
+[target] Dictionary: 50263 types
+[target] ../data3/val_sent_c99_label.bpe.target: 818 sents, 21509 tokens, 0.0% replaced by <unk>
+Wrote preprocessed data to cnn_dm-bin_2/
+Namespace(align_suffix=None, alignfile=None, all_gather_list_size=16384, balance=False, bpe=None, cpu=False, criterion='cross_entropy', dataset_impl='mmap', destdir='cnn_dm-bin_2/', empty_cache_freq=0, fp16=False, fp16_init_scale=128, fp16_no_flatten_grads=False, fp16_scale_tolerance=0.0, fp16_scale_window=None, joined_dictionary=False, log_format=None, log_interval=1000, lr_scheduler='fixed', lr_weight=1, memory_efficient_fp16=False, min_loss_scale=0.0001, multi_views=False, no_progress_bar=False, nwordssrc=-1, nwordstgt=-1, only_source=False, optimizer='nag', padding_factor=8, seed=1, source_lang='source', srcdict='dict.txt', target_lang='target', task='translation', tensorboard_logdir='', testpref=None, tgtdict='dict.txt', threshold_loss_scale=None, thresholdsrc=0, thresholdtgt=0, tokenizer=None, trainpref='../data3/train_sent_c99_label.bpe', user_dir=None, validpref='../data3/val_sent_c99_label.bpe', workers=60)
+[source] Dictionary: 50263 types
+Namespace(align_suffix=None, alignfile=None, all_gather_list_size=16384, balance=False, bpe=None, cpu=False, criterion='cross_entropy', dataset_impl='mmap', destdir='cnn_dm-bin_2/', empty_cache_freq=0, fp16=False, fp16_init_scale=128, fp16_no_flatten_grads=False, fp16_scale_tolerance=0.0, fp16_scale_window=None, joined_dictionary=False, log_format=None, log_interval=1000, lr_scheduler='fixed', lr_weight=1, memory_efficient_fp16=False, min_loss_scale=0.0001, multi_views=False, no_progress_bar=False, nwordssrc=-1, nwordstgt=-1, only_source=False, optimizer='nag', padding_factor=8, seed=1, source_lang='source', srcdict='dict.txt', target_lang='target', task='translation', tensorboard_logdir='', testpref=None, tgtdict='dict.txt', threshold_loss_scale=None, thresholdsrc=0, thresholdtgt=0, tokenizer=None, trainpref='../data3/train_sent_c99_label.bpe', user_dir=None, validpref='../data3/val_sent_c99_label.bpe', workers=60)
+[source] Dictionary: 50263 types
+[source] ../data3/train_sent_c99_label.bpe.source: 14732 sents, 2034855 tokens, 0.0% replaced by <unk>
+[source] Dictionary: 50263 types
+[source] ../data3/val_sent_c99_label.bpe.source: 818 sents, 110268 tokens, 0.0% replaced by <unk>
+[target] Dictionary: 50263 types
+[target] ../data3/train_sent_c99_label.bpe.target: 14732 sents, 387611 tokens, 0.0% replaced by <unk>
+[target] Dictionary: 50263 types
+[target] ../data3/val_sent_c99_label.bpe.target: 818 sents, 21509 tokens, 0.0% replaced by <unk>
+Wrote preprocessed data to cnn_dm-bin_2/
+Namespace(align_suffix=None, alignfile=None, all_gather_list_size=16384, balance=False, bpe=None, cpu=False, criterion='cross_entropy', dataset_impl='mmap', destdir='cnn_dm-bin_2/', empty_cache_freq=0, fp16=False, fp16_init_scale=128, fp16_no_flatten_grads=False, fp16_scale_tolerance=0.0, fp16_scale_window=None, joined_dictionary=False, log_format=None, log_interval=1000, lr_scheduler='fixed', lr_weight=1, memory_efficient_fp16=False, min_loss_scale=0.0001, multi_views=False, no_progress_bar=False, nwordssrc=-1, nwordstgt=-1, only_source=False, optimizer='nag', padding_factor=8, seed=1, source_lang='source', srcdict='dict.txt', target_lang='target', task='translation', tensorboard_logdir='', testpref=None, tgtdict='dict.txt', threshold_loss_scale=None, thresholdsrc=0, thresholdtgt=0, tokenizer=None, trainpref='../data3/train_sent_c99_label.bpe', user_dir=None, validpref='../data3/val_sent_c99_label.bpe', workers=60)
+[source] Dictionary: 50263 types
+[source] ../data3/train_sent_c99_label.bpe.source: 14732 sents, 2034855 tokens, 0.0% replaced by <unk>
+[source] Dictionary: 50263 types
+[source] ../data3/val_sent_c99_label.bpe.source: 818 sents, 110268 tokens, 0.0% replaced by <unk>
+[target] Dictionary: 50263 types
+[target] ../data3/train_sent_c99_label.bpe.target: 14732 sents, 387611 tokens, 0.0% replaced by <unk>
+[target] Dictionary: 50263 types
+[target] ../data3/val_sent_c99_label.bpe.target: 818 sents, 21509 tokens, 0.0% replaced by <unk>
+Wrote preprocessed data to cnn_dm-bin_2/
+Namespace(align_suffix=None, alignfile=None, all_gather_list_size=16384, balance=False, bpe=None, cpu=False, criterion='cross_entropy', dataset_impl='mmap', destdir='cnn_dm-bin_2/', empty_cache_freq=0, fp16=False, fp16_init_scale=128, fp16_no_flatten_grads=False, fp16_scale_tolerance=0.0, fp16_scale_window=None, joined_dictionary=False, log_format=None, log_interval=1000, lr_scheduler='fixed', lr_weight=1, memory_efficient_fp16=False, min_loss_scale=0.0001, multi_views=False, no_progress_bar=False, nwordssrc=-1, nwordstgt=-1, only_source=False, optimizer='nag', padding_factor=8, seed=1, source_lang='source', srcdict='dict.txt', target_lang='target', task='translation', tensorboard_logdir='', testpref=None, tgtdict='dict.txt', threshold_loss_scale=None, thresholdsrc=0, thresholdtgt=0, tokenizer=None, trainpref='../data3/train_sent_c99_label.bpe', user_dir=None, validpref='../data3/val_sent_c99_label.bpe', workers=60)
+[source] Dictionary: 50263 types
+[source] ../data3/train_sent_c99_label.bpe.source: 14732 sents, 2034855 tokens, 0.0% replaced by <unk>
+[source] Dictionary: 50263 types
+[source] ../data3/val_sent_c99_label.bpe.source: 818 sents, 110268 tokens, 0.0% replaced by <unk>
+[target] Dictionary: 50263 types
+[target] ../data3/train_sent_c99_label.bpe.target: 14732 sents, 387611 tokens, 0.0% replaced by <unk>
+[target] Dictionary: 50263 types
+[target] ../data3/val_sent_c99_label.bpe.target: 818 sents, 21509 tokens, 0.0% replaced by <unk>
+Wrote preprocessed data to cnn_dm-bin_2/
+Namespace(align_suffix=None, alignfile=None, all_gather_list_size=16384, balance=False, bpe=None, cpu=False, criterion='cross_entropy', dataset_impl='mmap', destdir='cnn_dm-bin_2/', empty_cache_freq=0, fp16=False, fp16_init_scale=128, fp16_no_flatten_grads=False, fp16_scale_tolerance=0.0, fp16_scale_window=None, joined_dictionary=False, log_format=None, log_interval=1000, lr_scheduler='fixed', lr_weight=1, memory_efficient_fp16=False, min_loss_scale=0.0001, multi_views=False, no_progress_bar=False, nwordssrc=-1, nwordstgt=-1, only_source=False, optimizer='nag', padding_factor=8, seed=1, source_lang='source', srcdict='dict.txt', target_lang='target', task='translation', tensorboard_logdir='', testpref=None, tgtdict='dict.txt', threshold_loss_scale=None, thresholdsrc=0, thresholdtgt=0, tokenizer=None, trainpref='../data3/train_sent_c99_label.bpe', user_dir=None, validpref='../data3/val_sent_c99_label.bpe', workers=60)
+[source] Dictionary: 50263 types
+[source] ../data3/train_sent_c99_label.bpe.source: 14731 sents, 2046891 tokens, 0.0% replaced by <unk>
+[source] Dictionary: 50263 types
+[source] ../data3/val_sent_c99_label.bpe.source: 818 sents, 110676 tokens, 0.0% replaced by <unk>
+[target] Dictionary: 50263 types
+[target] ../data3/train_sent_c99_label.bpe.target: 14731 sents, 387604 tokens, 0.0% replaced by <unk>
+[target] Dictionary: 50263 types
+[target] ../data3/val_sent_c99_label.bpe.target: 818 sents, 21509 tokens, 0.0% replaced by <unk>
+Wrote preprocessed data to cnn_dm-bin_2/
+Namespace(align_suffix=None, alignfile=None, all_gather_list_size=16384, balance=False, bpe=None, cpu=False, criterion='cross_entropy', dataset_impl='mmap', destdir='cnn_dm-bin_2/', empty_cache_freq=0, fp16=False, fp16_init_scale=128, fp16_no_flatten_grads=False, fp16_scale_tolerance=0.0, fp16_scale_window=None, joined_dictionary=False, log_format=None, log_interval=1000, lr_scheduler='fixed', lr_weight=1, memory_efficient_fp16=False, min_loss_scale=0.0001, multi_views=False, no_progress_bar=False, nwordssrc=-1, nwordstgt=-1, only_source=False, optimizer='nag', padding_factor=8, seed=1, source_lang='source', srcdict='dict.txt', target_lang='target', task='translation', tensorboard_logdir='', testpref=None, tgtdict='dict.txt', threshold_loss_scale=None, thresholdsrc=0, thresholdtgt=0, tokenizer=None, trainpref='../data3/train_sent_c99_label.bpe', user_dir=None, validpref='../data3/val_sent_c99_label.bpe', workers=60)
+[source] Dictionary: 50263 types
+[source] ../data3/train_sent_c99_label.bpe.source: 14731 sents, 2034853 tokens, 0.0% replaced by <unk>
+[source] Dictionary: 50263 types
+[source] ../data3/val_sent_c99_label.bpe.source: 818 sents, 110268 tokens, 0.0% replaced by <unk>
+[target] Dictionary: 50263 types
+[target] ../data3/train_sent_c99_label.bpe.target: 14731 sents, 387604 tokens, 0.0% replaced by <unk>
+[target] Dictionary: 50263 types
+[target] ../data3/val_sent_c99_label.bpe.target: 818 sents, 21509 tokens, 0.0% replaced by <unk>
+Wrote preprocessed data to cnn_dm-bin_2/
+Namespace(align_suffix=None, alignfile=None, all_gather_list_size=16384, balance=False, bpe=None, cpu=False, criterion='cross_entropy', dataset_impl='mmap', destdir='cnn_dm-bin_2/', empty_cache_freq=0, fp16=False, fp16_init_scale=128, fp16_no_flatten_grads=False, fp16_scale_tolerance=0.0, fp16_scale_window=None, joined_dictionary=False, log_format=None, log_interval=1000, lr_scheduler='fixed', lr_weight=1, memory_efficient_fp16=False, min_loss_scale=0.0001, multi_views=False, no_progress_bar=False, nwordssrc=-1, nwordstgt=-1, only_source=False, optimizer='nag', padding_factor=8, seed=1, source_lang='source', srcdict='dict.txt', target_lang='target', task='translation', tensorboard_logdir='', testpref=None, tgtdict='dict.txt', threshold_loss_scale=None, thresholdsrc=0, thresholdtgt=0, tokenizer=None, trainpref='../data3/train_sent_c99_label.bpe', user_dir=None, validpref='../data3/val_sent_c99_label.bpe', workers=60)
+[source] Dictionary: 50263 types
+[source] ../data3/train_sent_c99_label.bpe.source: 14731 sents, 2034842 tokens, 0.0% replaced by <unk>
+[source] Dictionary: 50263 types
+[source] ../data3/val_sent_c99_label.bpe.source: 818 sents, 110269 tokens, 0.0% replaced by <unk>
+[target] Dictionary: 50263 types
+[target] ../data3/train_sent_c99_label.bpe.target: 14731 sents, 387604 tokens, 0.0% replaced by <unk>
+[target] Dictionary: 50263 types
+[target] ../data3/val_sent_c99_label.bpe.target: 818 sents, 21509 tokens, 0.0% replaced by <unk>
+Wrote preprocessed data to cnn_dm-bin_2/
+Namespace(align_suffix=None, alignfile=None, all_gather_list_size=16384, balance=False, bpe=None, cpu=False, criterion='cross_entropy', dataset_impl='mmap', destdir='cnn_dm-bin_2/', empty_cache_freq=0, fp16=False, fp16_init_scale=128, fp16_no_flatten_grads=False, fp16_scale_tolerance=0.0, fp16_scale_window=None, joined_dictionary=False, log_format=None, log_interval=1000, lr_scheduler='fixed', lr_weight=1, memory_efficient_fp16=False, min_loss_scale=0.0001, multi_views=False, no_progress_bar=False, nwordssrc=-1, nwordstgt=-1, only_source=False, optimizer='nag', padding_factor=8, seed=1, source_lang='source', srcdict='dict.txt', target_lang='target', task='translation', tensorboard_logdir='', testpref=None, tgtdict='dict.txt', threshold_loss_scale=None, thresholdsrc=0, thresholdtgt=0, tokenizer=None, trainpref='../data3/train_sent_c99_label.bpe', user_dir=None, validpref='../data3/val_sent_c99_label.bpe', workers=60)
+[source] Dictionary: 50263 types
+[source] ../data3/train_sent_c99_label.bpe.source: 14731 sents, 2175606 tokens, 0.0% replaced by <unk>
+[source] Dictionary: 50263 types
+[source] ../data3/val_sent_c99_label.bpe.source: 818 sents, 117805 tokens, 0.0% replaced by <unk>
+[target] Dictionary: 50263 types
+[target] ../data3/train_sent_c99_label.bpe.target: 14731 sents, 387604 tokens, 0.0% replaced by <unk>
+[target] Dictionary: 50263 types
+[target] ../data3/val_sent_c99_label.bpe.target: 818 sents, 21509 tokens, 0.0% replaced by <unk>
+Wrote preprocessed data to cnn_dm-bin_2/
+Namespace(align_suffix=None, alignfile=None, all_gather_list_size=16384, balance=False, bpe=None, cpu=False, criterion='cross_entropy', dataset_impl='mmap', destdir='cnn_dm-bin_2/', empty_cache_freq=0, fp16=False, fp16_init_scale=128, fp16_no_flatten_grads=False, fp16_scale_tolerance=0.0, fp16_scale_window=None, joined_dictionary=False, log_format=None, log_interval=1000, lr_scheduler='fixed', lr_weight=1, memory_efficient_fp16=False, min_loss_scale=0.0001, multi_views=False, no_progress_bar=False, nwordssrc=-1, nwordstgt=-1, only_source=False, optimizer='nag', padding_factor=8, seed=1, source_lang='source', srcdict='dict.txt', target_lang='target', task='translation', tensorboard_logdir='', testpref=None, tgtdict='dict.txt', threshold_loss_scale=None, thresholdsrc=0, thresholdtgt=0, tokenizer=None, trainpref='../data3/train_sent_c99_label.bpe', user_dir=None, validpref='../data3/val_sent_c99_label.bpe', workers=60)
+[source] Dictionary: 50263 types
+[source] ../data3/train_sent_c99_label.bpe.source: 14731 sents, 2034842 tokens, 0.0% replaced by <unk>
+[source] Dictionary: 50263 types
+[source] ../data3/val_sent_c99_label.bpe.source: 818 sents, 110269 tokens, 0.0% replaced by <unk>
+[target] Dictionary: 50263 types
+[target] ../data3/train_sent_c99_label.bpe.target: 14731 sents, 387604 tokens, 0.0% replaced by <unk>
+[target] Dictionary: 50263 types
+[target] ../data3/val_sent_c99_label.bpe.target: 818 sents, 21509 tokens, 0.0% replaced by <unk>
+Wrote preprocessed data to cnn_dm-bin_2/
+Namespace(align_suffix=None, alignfile=None, all_gather_list_size=16384, balance=False, bpe=None, cpu=False, criterion='cross_entropy', dataset_impl='mmap', destdir='cnn_dm-bin_2/', empty_cache_freq=0, fp16=False, fp16_init_scale=128, fp16_no_flatten_grads=False, fp16_scale_tolerance=0.0, fp16_scale_window=None, joined_dictionary=False, log_format=None, log_interval=1000, lr_scheduler='fixed', lr_weight=1, memory_efficient_fp16=False, min_loss_scale=0.0001, multi_views=False, no_progress_bar=False, nwordssrc=-1, nwordstgt=-1, only_source=False, optimizer='nag', padding_factor=8, seed=1, source_lang='source', srcdict='dict.txt', target_lang='target', task='translation', tensorboard_logdir='', testpref=None, tgtdict='dict.txt', threshold_loss_scale=None, thresholdsrc=0, thresholdtgt=0, tokenizer=None, trainpref='../data3/train_sent_c99_label.bpe', user_dir=None, validpref='../data3/val_sent_c99_label.bpe', workers=60)
+[source] Dictionary: 50263 types
+[source] ../data3/train_sent_c99_label.bpe.source: 14731 sents, 2026634 tokens, 0.0% replaced by <unk>
+[source] Dictionary: 50263 types
+[source] ../data3/val_sent_c99_label.bpe.source: 818 sents, 109793 tokens, 0.0% replaced by <unk>
+[target] Dictionary: 50263 types
+[target] ../data3/train_sent_c99_label.bpe.target: 14731 sents, 387604 tokens, 0.0% replaced by <unk>
+[target] Dictionary: 50263 types
+[target] ../data3/val_sent_c99_label.bpe.target: 818 sents, 21509 tokens, 0.0% replaced by <unk>
+Wrote preprocessed data to cnn_dm-bin_2/
+Namespace(align_suffix=None, alignfile=None, all_gather_list_size=16384, balance=False, bpe=None, cpu=False, criterion='cross_entropy', dataset_impl='mmap', destdir='cnn_dm-bin_2/', empty_cache_freq=0, fp16=False, fp16_init_scale=128, fp16_no_flatten_grads=False, fp16_scale_tolerance=0.0, fp16_scale_window=None, joined_dictionary=False, log_format=None, log_interval=1000, lr_scheduler='fixed', lr_weight=1, memory_efficient_fp16=False, min_loss_scale=0.0001, multi_views=False, no_progress_bar=False, nwordssrc=-1, nwordstgt=-1, only_source=False, optimizer='nag', padding_factor=8, seed=1, source_lang='source', srcdict='dict.txt', target_lang='target', task='translation', tensorboard_logdir='', testpref=None, tgtdict='dict.txt', threshold_loss_scale=None, thresholdsrc=0, thresholdtgt=0, tokenizer=None, trainpref='../data3/train_sent_c99_label.bpe', user_dir=None, validpref='../data3/val_sent_c99_label.bpe', workers=60)
+[source] Dictionary: 50263 types
+[source] ../data3/train_sent_c99_label.bpe.source: 14731 sents, 2034842 tokens, 0.0% replaced by <unk>
+[source] Dictionary: 50263 types
+[source] ../data3/val_sent_c99_label.bpe.source: 818 sents, 110269 tokens, 0.0% replaced by <unk>
+[target] Dictionary: 50263 types
+[target] ../data3/train_sent_c99_label.bpe.target: 14731 sents, 387604 tokens, 0.0% replaced by <unk>
+[target] Dictionary: 50263 types
+[target] ../data3/val_sent_c99_label.bpe.target: 818 sents, 21509 tokens, 0.0% replaced by <unk>
+Wrote preprocessed data to cnn_dm-bin_2/
