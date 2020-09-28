@@ -34,6 +34,15 @@ These instructions will get you running the codes of Multi-View Conversation Sum
         |__train_multi_view.sh, train_single_view.sh --> Train the models
 ```
 
+### Install the multi-view-fairseq
+
+```
+cd fairseq
+
+pip install --editable ./
+```
+
+
 ### Downloading the data
 Please download the dataset and put them in the data folder [here](https://drive.google.com/file/d/1-W42dS74MuFQUKBIru6_yc2Sm7LObc7o/view?usp=sharing)
 
