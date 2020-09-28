@@ -49,7 +49,7 @@ Please download the dataset and put them in the data folder [here](https://drive
 
 ### Pre-processing the data
 
-The data folder you download from the above link already contains all the pre-processed files for SamSUM corpus.
+The data folder you download from the above link already contains all the pre-processed files from SamSUM corpus.
 
 #### Segment conversations
 
