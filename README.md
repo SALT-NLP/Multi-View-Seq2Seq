@@ -75,9 +75,9 @@ cd fairseq_multi_view
 
 ### Training models
 
-The trained multi-view summarization models used in the paper can be downloaded [here](https://drive.google.com/file/d/1Rhzxk1B7oaKi85Gsxr_8WcqTRx23HO-y/view?usp=sharing)
+These section contains instructions for training the conversation summarizationmodels.
 
-These section contains instructions for training models on Yahoo Answers using 10 labeled data per class for training.
+The trained multi-view summarization models used in the paper can be downloaded [here](https://drive.google.com/file/d/1Rhzxk1B7oaKi85Gsxr_8WcqTRx23HO-y/view?usp=sharing)
 
 #### Training Single-View model
 Please run `./train_single_view.sh` to train the single-view models. Note that you might need to modify the data folder name.
