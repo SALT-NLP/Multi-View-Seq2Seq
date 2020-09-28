@@ -1,4 +1,4 @@
-# MixText
+# Multi-View-Seq2Seq
 This repo contains codes for the following paper: 
 
 *Jiaao Chen, Diyi Yang*: Multi-View Sequence-to-Sequence Models with Conversational Structure for Abstractive Dialogue Summarization,  EMNLP 2020
@@ -28,11 +28,21 @@ These instructions will get you running the codes of Multi-View Conversation Sum
         |__ Read_Labels.ipynb --> Jupyter Notebook for getting the formated data for traning/evaluation
         |__ Please download the full data folder from here https://drive.google.com/file/d/1-W42dS74MuFQUKBIru6_yc2Sm7LObc7o/view?usp=sharing
 
-|__fairseq/ --> Source codes from fairseq, containing the multi-view model codes
-|__fairseq_multi_view/
+|__fairseq_multi_view/ --> Source codes built on fairseq, containing the multi-view model codes
+|__train_sh/
+        |__*_data_bin --> Store the binarized files
         |__bpe.sh, binarize.sh --> Pre-process the data for fairseq training
         |__train_multi_view.sh, train_single_view.sh --> Train the models
 ```
+
+### Install the multi-view-fairseq
+
+```
+cd fairseq
+
+pip install --editable ./
+```
+
 
 ### Downloading the data
 Please download the dataset and put them in the data folder [here](https://drive.google.com/file/d/1-W42dS74MuFQUKBIru6_yc2Sm7LObc7o/view?usp=sharing)
@@ -66,9 +76,9 @@ cd fairseq_multi_view
 
 ### Training models
 
-The trained multi-view summarization models used in the paper can be downloaded [here](https://drive.google.com/file/d/1Rhzxk1B7oaKi85Gsxr_8WcqTRx23HO-y/view?usp=sharing)
+These section contains instructions for training the conversation summarizationmodels.
 
-These section contains instructions for training models on Yahoo Answers using 10 labeled data per class for training.
+The trained multi-view summarization models used in the paper can be downloaded [here](https://drive.google.com/file/d/1Rhzxk1B7oaKi85Gsxr_8WcqTRx23HO-y/view?usp=sharing)
 
 #### Training Single-View model
 Please run `./train_single_view.sh` to train the single-view models. Note that you might need to modify the data folder name.
