@@ -38,7 +38,7 @@ These instructions will get you running the codes of Multi-View Conversation Sum
 ### Install the multi-view-fairseq
 
 ```
-cd fairseq
+cd fairseq_multi_view
 
 pip install --editable ./
 ```
@@ -58,7 +58,7 @@ For your own data, first go through `Sentence_Embeddings.ipynb` to store all the
 #### BPE preprocess:
 
 ```
-cd fairseq_multi_view
+cd train_sh
 
 wget -N 'https://dl.fbaipublicfiles.com/fairseq/gpt2_bpe/encoder.json'
 wget -N 'https://dl.fbaipublicfiles.com/fairseq/gpt2_bpe/vocab.bpe'
@@ -69,7 +69,7 @@ wget -N 'https://dl.fbaipublicfiles.com/fairseq/gpt2_bpe/dict.txt'
 
 #### Binarize dataset:
 ```
-cd fairseq_multi_view
+cd train_sh
 
 ./binarize.sh
 ```
