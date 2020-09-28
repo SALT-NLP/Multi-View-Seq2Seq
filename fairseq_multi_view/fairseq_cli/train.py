@@ -131,7 +131,7 @@ def main(args, init_distributed=False):
         print("Test on val set: ")
         
 
-        with open('../data3/val_sent_trans_cons_label.source') as source, open('../data3/val_sent_c99_label.source') as source2, open('./val_best_multi_attn_'+str(args.lr_weight)+'_.hypo', 'wt', encoding='utf-8') as fout:
+        with open('../data/val_sent_trans_cons_label.source') as source, open('../data/val_sent_c99_label.source') as source2, open('./val_best_multi_attn_'+str(args.lr_weight)+'_.hypo', 'wt', encoding='utf-8') as fout:
             s1 = source.readlines()
             s2 = source2.readlines()
             
@@ -166,7 +166,7 @@ def main(args, init_distributed=False):
                     fout.write(hypothesis + '\n')
                     fout.flush()
         hyp_path = './val_best_multi_attn_'+str(args.lr_weight)+'_.hypo'
-        ref_path = '../data3/val_sent_trans_cons_label.target'
+        ref_path = '../data/val_sent_trans_cons_label.target'
         hypothesis = []
         with open(hyp_path, 'r') as f:
             lines = f.readlines()
@@ -192,7 +192,7 @@ def main(args, init_distributed=False):
 
         count = 1
         bsz = 8
-        with open('../data3/test_sent_trans_cons_label.source') as source, open('../data3/test_sent_c99_label.source') as source2, open('./test_best_multi_attn_'+str(args.lr_weight)+'_.hypo', 'wt', encoding='utf-8') as fout:
+        with open('../data/test_sent_trans_cons_label.source') as source, open('../data/test_sent_c99_label.source') as source2, open('./test_best_multi_attn_'+str(args.lr_weight)+'_.hypo', 'wt', encoding='utf-8') as fout:
             s1 = source.readlines()
             s2 = source2.readlines()
             
@@ -227,7 +227,7 @@ def main(args, init_distributed=False):
                     fout.write(hypothesis + '\n')
                     fout.flush()
         hyp_path = './test_best_multi_attn_'+str(args.lr_weight)+'_.hypo'
-        ref_path = '../data3/test_sent_trans_cons_label.target'
+        ref_path = '../data/test_sent_trans_cons_label.target'
         hypothesis = []
         with open(hyp_path, 'r') as f:
             lines = f.readlines()
