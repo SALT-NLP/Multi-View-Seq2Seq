@@ -28,8 +28,9 @@ These instructions will get you running the codes of Multi-View Conversation Sum
         |__ Read_Labels.ipynb --> Jupyter Notebook for getting the formated data for traning/evaluation
         |__ Please download the full data folder from here https://drive.google.com/file/d/1-W42dS74MuFQUKBIru6_yc2Sm7LObc7o/view?usp=sharing
 
-|__fairseq/ --> Source codes from fairseq, containing the multi-view model codes
-|__fairseq_multi_view/
+|__fairseq_multi_view/ --> Source codes built on fairseq, containing the multi-view model codes
+|__train_sh/
+        |__*_data_bin --> Store the binarized files
         |__bpe.sh, binarize.sh --> Pre-process the data for fairseq training
         |__train_multi_view.sh, train_single_view.sh --> Train the models
 ```
