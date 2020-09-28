@@ -80,7 +80,7 @@ These section contains instructions for training the conversation summarizationm
 
 The trained multi-view summarization models used in the paper can be downloaded [here](https://drive.google.com/file/d/1Rhzxk1B7oaKi85Gsxr_8WcqTRx23HO-y/view?usp=sharing)
 
-Note that during training, after every epoch, it will automatically evaluate on the val and test set. The best model is selected based on lower loss on val set.
+Note that during training, after every epoch, it will automatically evaluate on the val and test set. The best model is selected based on lower loss on val set. Also, the training is performed on one P100 GPU (or other GPU with memory >= 16G). After 6 or 7 epoches, it will get the best model and you could stop further training.
 
 #### Training Single-View model
 Please run `./train_single_view.sh` to train the single-view models. Note that you might need to modify the data folder name.
