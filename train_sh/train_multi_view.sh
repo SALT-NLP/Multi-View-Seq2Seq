@@ -33,6 +33,7 @@ CUDA_VISIBLE_DEVICES=0 python train.py cnn_dm-bin_2 \
     --T 0.2 \
     --multi-views \
     --balance \
+    --seed 14623 
 
 
 
