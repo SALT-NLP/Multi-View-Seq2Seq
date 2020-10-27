@@ -78,7 +78,8 @@ cd train_sh
 
 These section contains instructions for training the conversation summarizationmodels.
 
-The trained multi-view summarization models used in the paper can be downloaded [here](https://drive.google.com/file/d/1Rhzxk1B7oaKi85Gsxr_8WcqTRx23HO-y/view?usp=sharing)
+The trained multi-view summarization models used in the paper can be downloaded [here](https://drive.google.com/file/d/1Rhzxk1B7oaKi85Gsxr_8WcqTRx23HO-y/view?usp=sharing).
+The generated summaries on test set is in the data folder.
 
 Note that during training, after every epoch, it will automatically evaluate on the val and test set (you might need to change the dataset path in `./fairseq_multi_view/fairseq_cli/train.py` for single_view training). The best model is selected based on lower loss on val set. Also, the training is performed on one P100 GPU (or other GPU with memory >= 16G). After 6 or 7 epoches, it will get the best model and you could stop further training.
 
