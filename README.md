@@ -74,6 +74,9 @@ cd train_sh
 ./binarize.sh
 ```
 
+### Download the pre-trained BART
+Please download the pre-trained model from [here](https://github.com/pytorch/fairseq/tree/master/examples/bart). And modify the BART_PATH in `./train_single_view.sh' or `./train_multi_view.sh`.
+ 
 ### Training models
 
 These section contains instructions for training the conversation summarizationmodels.
