@@ -3,7 +3,7 @@ WARMUP_UPDATES=200
 LR=3e-05
 MAX_TOKENS=800
 UPDATE_FREQ=32
-BART_PATH=./bart.large/model.pt
+BART_PATH= PATH-TO-BART-MODEL (./bart.large/model.pt)
 
 CUDA_VISIBLE_DEVICES=0 python train.py cnn_dm-bin \
     --restore-file $BART_PATH \
@@ -28,4 +28,5 @@ CUDA_VISIBLE_DEVICES=0 python train.py cnn_dm-bin \
     --ddp-backend=no_c10d \
     --required-batch-size-multiple 1 \
     --no-epoch-checkpoints \
-    --save-dir checkpoints_stage
+    --save-dir checkpoints_stage \
+    --seed 14632
