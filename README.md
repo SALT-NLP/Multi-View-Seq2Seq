@@ -45,7 +45,7 @@ pip install --editable ./
 
 
 ### Downloading the data
-Please download the dataset and put them in the data folder [here](https://drive.google.com/file/d/1-W42dS74MuFQUKBIru6_yc2Sm7LObc7o/view?usp=sharing)
+Please download the SAMSum dataset.
 
 ### Pre-processing the data
 
